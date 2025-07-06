@@ -1,0 +1,29 @@
+.answers {
+  display: flex;
+  /* margin-top: 30px; */
+  margin-bottom: 29px;
+  justify-content: space-around;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9e3a8a;
+  border-radius: 3px;
+  width: 128px;
+  height: 52px;
+  border: 2px solid #9e3a8a;
+}
+
+@media screen and (min-width: 700px) {
+  .answers {
+    margin-top: 44px;
+    justify-content: center;
+  }
+
+  .answer {
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+}
