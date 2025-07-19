@@ -21,5 +21,4 @@
   height: 15px;
   background: linear-gradient(90deg, #a81010 0%, #ef934c 39.31%, #41a67f 100%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  /* border-radius: 10px; */
 }
