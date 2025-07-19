@@ -8,11 +8,11 @@ type HeaderProps = {
 
 function Header({ resetQuiz }: HeaderProps) {
   return (
-    <div className="header" onClick={resetQuiz}>
+    <header className="header" onClick={resetQuiz}>
       <img src={arrowLeft} width="20" alt="back" height="20" />
       Back
       <img src={ndvhheader} alt="header-logo" className="header-image" />
-    </div>
+    </header>
   );
 }
 

@@ -1,5 +1,5 @@
 import Filler from "./Filler";
-import '../styles/Progress.css';
+import "../styles/Progress.css";
 
 type ProgressProps = { result: number };
 
@@ -11,7 +11,7 @@ function Progress({ result }: ProgressProps) {
         <div>Unhealthy</div>
         <div>Abusive</div>
       </div>
-      <div className="tracker">
+      <div data-testid="tracker" className="tracker">
         <Filler result={result} />
       </div>
     </div>

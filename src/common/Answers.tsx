@@ -24,10 +24,18 @@ function Answers({
 
   return (
     <div className="answers">
-      <div className="answer" onClick={() => checkAnswer(answers[0])}>
+      <div
+        data-testid="answer"
+        className="answer"
+        onClick={() => checkAnswer(answers[0])}
+      >
         {answers[0]}
       </div>
-      <div className="answer" onClick={() => checkAnswer(answers[1])}>
+      <div
+        data-testid="answer"
+        className="answer"
+        onClick={() => checkAnswer(answers[1])}
+      >
         {answers[1]}
       </div>
     </div>

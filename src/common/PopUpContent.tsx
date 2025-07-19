@@ -21,9 +21,9 @@ function Content({ startQuiz }: ContentProps) {
         signs of abuse from one of the partners. We'll help you identify and eal
         with those
       </p>
-      <div className="start-button" onClick={popUpHandle}>
+      <button className="start-button" onClick={popUpHandle}>
         Start Now
-      </div>
+      </button>
       <p className="start-text">or talk with us</p>
     </div>
   );
