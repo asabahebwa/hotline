@@ -34,7 +34,6 @@
   font-size: 14px;
   line-height: 19px;
   color: #080808;
-  /* border: 1px solid red; */
 }
 
 .result-option-1 {
@@ -87,15 +86,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 15px;
-  /* border: 1px solid red; */
 }
 
 .call-background {
   display: flex;
   flex-shrink: 0;
   padding-bottom: 3px;
-  /* border: 1px solid blue; */
-  width: 64px !important;
+  width: 64px;
   height: 64px;
   align-items: center;
   justify-content: center;
@@ -107,7 +104,6 @@
   display: flex;
   margin-left: 14px;
   flex-direction: column;
-  /* border: 1px solid green; */
   width: 100%;
   height: 64px;
 }
@@ -122,7 +118,6 @@
   text-transform: uppercase;
   color: #000000;
   text-align: left;
-  /* border: 1px solid green; */
 }
 
 .call-text-paragraph {
@@ -132,7 +127,6 @@
   font-size: 12px;
   line-height: 16px;
   text-align: left;
-  /* border: 1px solid orange; */
   color: #848484;
 }
 
@@ -141,15 +135,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 15px;
-  /* border: 1px solid red; */
 }
 
 .cr-background {
   display: flex;
   flex-shrink: 0;
   padding-bottom: 3px;
-  /* border: 1px solid blue; */
-  width: 64px !important;
+  width: 64px;
   height: 64px;
   align-items: center;
   justify-content: center;
@@ -162,7 +154,6 @@
   margin-left: 14px;
   flex-direction: column;
   width: 100%;
-  /* border: 1px solid green; */
   height: 64px;
 }
 
@@ -174,7 +165,6 @@
   font-size: 14px;
   line-height: 19px;
   text-align: left;
-  /* border: 1px solid green; */
   text-transform: uppercase;
   color: #000000;
 }
@@ -185,7 +175,6 @@
   font-weight: normal;
   font-size: 12px;
   text-align: left;
-  /* border: 1px solid orange; */
   line-height: 16px;
   color: #848484;
 }
@@ -195,15 +184,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 15px;
-  /* border: 1px solid red; */
 }
 
 .de-escalate-background {
   display: flex;
   flex-shrink: 0;
   padding-bottom: 3px;
-  /* border: 1px solid blue; */
-  width: 64px !important;
+  width: 64px;
   height: 64px;
   align-items: center;
   justify-content: center;
@@ -215,7 +202,6 @@
   display: flex;
   margin-left: 14px;
   flex-direction: column;
-  /* border: 1px solid green; */
   height: 64px;
 }
 
@@ -227,7 +213,6 @@
   font-size: 14px;
   text-align: left;
   line-height: 19px;
-  /* border: 1px solid green; */
   text-transform: uppercase;
   color: #000000;
 }
@@ -237,7 +222,6 @@
   margin-bottom: 0px;
   font-weight: normal;
   font-size: 12px;
-  /* border: 1px solid green; */
   text-align: left;
   line-height: 16px;
   color: #848484;
