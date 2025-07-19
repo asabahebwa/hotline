@@ -9,7 +9,6 @@ describe("NotFound Component", () => {
         <NotFound />
       </MemoryRouter>
     );
-
     const headings = screen.getAllByRole("heading");
     expect(headings).toHaveLength(2);
     expect(headings[0].tagName).toBe("H1");

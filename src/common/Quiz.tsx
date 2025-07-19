@@ -26,8 +26,18 @@ function Quiz({
       <div className="mask-group">
         <img src={maskGroup} alt="mask group" className="mask-group-img" />
         <div className="question-count">
-          <span className="question-count-number">{count + 1}</span>
-          <span className="question-count-total">/{total}</span>
+          <span
+            data-testid="question-count-number"
+            className="question-count-number"
+          >
+            {count + 1}
+          </span>
+          <span
+            data-testid="question-count-total"
+            className="question-count-total"
+          >
+            /{total}
+          </span>
         </div>
       </div>
       <div className="question">{question}</div>

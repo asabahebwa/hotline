@@ -11,7 +11,7 @@ function Help({ imgSrc, textHeadline, textParagraph, background }: HelpProps) {
   return (
     <div className="help-wrapper">
       <div className="help-background" style={{ background }}>
-        <img src={imgSrc} width="36" height="52" alt="telephone" />
+        <img src={imgSrc} width="36" height="52" alt="help-icon" />
       </div>
       <div className="help-text">
         <p className="help-text-headline">{textHeadline}</p>

@@ -10,7 +10,7 @@ function Filler({ result }: FillerProps) {
       background: "#FBFBFB",
     },
   };
-  return <div style={styles.filler} />;
+  return <div data-testid="filler" style={styles.filler} />;
 }
 
 export default Filler;

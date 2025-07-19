@@ -4,7 +4,7 @@ import "../styles/Swipe.css";
 
 function Swipe() {
   return (
-    <div className="swipe">
+    <div data-testid="swipe" className="swipe">
       <img src={icon} width="36" alt="swipe" height="36" />
       <p className="swipe-note">
         Swipe in anytime to start playing a game and hide this screen
