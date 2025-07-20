@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-![gif](https://github.com/asabahebwa/weathersasa/blob/master/src/assets/hotline.gif)
+![gif](https://github.com/asabahebwa/hotline/blob/master/src/assets/hotline.gif)
 
 Sometimes, even if you think your relationship is healthy, it can hide signs of abuse from one of the partners. This app will help you identify signs of abuse and offer resources on what you can do next.
 
@@ -22,4 +22,4 @@ I used **React Testing Library** because it encourages testing components in a w
 **Jest** was chosen as the test runner and assertion library because it's fast, easy to configure with React, and has built-in features like mocking and code coverage. It integrates seamlessly with React Testing Library and provides a solid foundation for writing both unit and integration tests.
 
 Together, they offer a modern, developer-friendly setup for writing reliable front-end tests.
-![test coverage](https://github.com/asabahebwa/hotline/blob/master/src/assets/img/.png)
+![test coverage](https://github.com/asabahebwa/hotline/blob/master/src/assets/img/hc.png)
