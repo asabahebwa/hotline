@@ -1,69 +1,25 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![gif](https://github.com/asabahebwa/weathersasa/blob/master/src/assets/hotline.gif)
 
-Currently, two official plugins are available:
+Sometimes, even if you think your relationship is healthy, it can hide signs of abuse from one of the partners. This app will help you identify signs of abuse and offer resources on what you can do next.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**TypeScript** was chosen for its ability to catch errors early and improve code maintainability. With static typing, it helps prevent bugs, improves developer productivity through better autocompletion and refactoring, and makes the codebase more scalable—especially useful in team projects.
 
-## Expanding the ESLint configuration
+**Tailwind CSS** provides utility-first styling that speeds up development and keeps styling consistent. It avoids writing custom CSS for common patterns, which helps reduce bloat and makes the UI easier to maintain and customize responsively.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+I retrieved skip data from the API using built-in fetch.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Running the app locally
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+You need to clone the repo, navigate to the root folder and run `npm install` to intall dependencies. To see the app locally in your browser, run `npm run dev`
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Testing
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+I added unit tests using **React Testing Library** and **Jest**. Use `npm run test` to run unit tests normally in the terminal. To run unit tests in watch mode, run `npm run test:watch`, to see the code coverage, you need to run `npm run test:coverage`.
+I used **React Testing Library** because it encourages testing components in a way that reflects how users actually interact with the app. It focuses on testing UI behavior rather than implementation details, which leads to more robust, maintainable tests that are less likely to break with refactors.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Jest** was chosen as the test runner and assertion library because it's fast, easy to configure with React, and has built-in features like mocking and code coverage. It integrates seamlessly with React Testing Library and provides a solid foundation for writing both unit and integration tests.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Together, they offer a modern, developer-friendly setup for writing reliable front-end tests.
+![test coverage](https://github.com/asabahebwa/hotline/blob/master/src/assets/img/.png)
