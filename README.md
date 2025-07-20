@@ -4,7 +4,7 @@
 
 Sometimes, even if you think your relationship is healthy, it can hide signs of abuse from one of the partners. This app will help you identify signs of abuse and offer resources on what you can do next.
 
-**TypeScript** was chosen for its ability to catch errors early and improve code maintainability. With static typing, it helps prevent bugs, improves developer productivity through better autocompletion and refactoring, and makes the codebase more scalable—especially useful in team projects.
+This app was built with a mobile-first approach. **TypeScript** was chosen for its ability to catch errors early and improve code maintainability. With static typing, it helps prevent bugs, improves developer productivity through better autocompletion and refactoring, and makes the codebase more scalable—especially useful in team projects.
 
 **Tailwind CSS** provides utility-first styling that speeds up development and keeps styling consistent. It avoids writing custom CSS for common patterns, which helps reduce bloat and makes the UI easier to maintain and customize responsively.
 
