@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  color: #9e3a8a;
   width: fit-content;
+  color: var(--color-primary);
 }
 
 .back-link {
@@ -11,10 +11,10 @@
   align-items: center;
   text-decoration: none;
   font-weight: bold;
-  color: #9e3a8a;
+  color: var(--color-primary);
 }
 
 .back-link:hover {
   text-decoration: underline;
-  color: #9e3a8a;
+  color: var(--color-primary);
 }

@@ -1,28 +1,28 @@
 .answers {
   display: flex;
-  margin-bottom: 29px;
   justify-content: space-around;
+  margin-bottom: 1.8125rem;
 }
 
 .answer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #9e3a8a;
-  border-radius: 3px;
-  width: 128px;
-  height: 52px;
-  border: 2px solid #9e3a8a;
+  color: var(--color-primary);
+  width: 8rem;
+  height: 3.25rem;
+  border: 0.125rem solid var(--color-primary);
+  border-radius: 0.1875rem;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 43.75rem) {
   .answers {
-    margin-top: 44px;
     justify-content: center;
+    margin-top: 2.75rem;
   }
 
   .answer {
-    margin: 0px 10px;
     cursor: pointer;
+    margin: 0 0.625rem;
   }
 }
