@@ -24,20 +24,20 @@ function Answers({
 
   return (
     <div className="answers">
-      <div
+      <button
         data-testid="answer"
         className="answer"
         onClick={() => checkAnswer(answers[0])}
       >
         {answers[0]}
-      </div>
-      <div
+      </button>
+      <button
         data-testid="answer"
         className="answer"
         onClick={() => checkAnswer(answers[1])}
       >
         {answers[1]}
-      </div>
+      </button>
     </div>
   );
 }
